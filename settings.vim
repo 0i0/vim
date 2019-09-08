@@ -97,22 +97,22 @@ endif
 if GUI()
   set t_Co=256
   "colorscheme badwolf
-  "colorscheme gruvbox
-  colorscheme tender
+  colorscheme gruvbox
+  "colorscheme tender
   let macvim_skip_colorscheme=1
   hi Comment ctermfg=bg ctermbg=240
   hi Comment guifg=#585858 guibg=bg
 elseif &t_Co >= 256
   "colorscheme badwolf
-  "colorscheme gruvbox
-  colorscheme tender
+  colorscheme gruvbox
+  "colorscheme tender
   hi Comment guifg=#585858 guibg=bg
   hi Comment ctermfg=bg ctermbg=240
 else
   set t_Co=8
   "colorscheme badwolf
-  "colorscheme gruvbox
-  colorscheme tender
+  colorscheme gruvbox
+  "colorscheme tender
   set t_Sf=^[[3%p1%dm
   set t_Sb=^[[4%p1%dm
 endif
