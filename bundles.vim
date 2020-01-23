@@ -87,7 +87,7 @@ endif
 " COLORSCHEME
 if count(g:bundle_groups, 'colorscheme')
   Plug 'helmuthdu/tender.vim'
-  Plug 'morhetz/gruvbox'
+  Plug 'kaicataldo/material.vim'
   Plug 'sjl/badwolf'
 endif
 call plug#end()
