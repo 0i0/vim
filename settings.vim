@@ -101,13 +101,13 @@ if GUI()
   "colorscheme tender
   let macvim_skip_colorscheme=1
   hi Comment ctermfg=bg ctermbg=240
-  hi Comment guifg=#585858 guibg=bg
+  "hi Comment guifg=#585858 guibg=bg
 elseif &t_Co >= 256
   "colorscheme badwolf
   colorscheme material
   "colorscheme tender
   hi Comment guifg=#585858 guibg=bg
-  hi Comment ctermfg=bg ctermbg=240
+  "hi Comment ctermfg=bg ctermbg=240
 else
   set t_Co=8
   "colorscheme badwolf
