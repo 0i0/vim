@@ -1,3 +1,3 @@
 [submodule "bundle/material"]
 	path = bundle/material
-	url = https://github.com/kaicataldo/material.vim.git
+	url = https://github.com/kaicataldo/material.vim
