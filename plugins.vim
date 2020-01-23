@@ -1,6 +1,6 @@
 " PLUGINS CONFIG
-" gruvbox
-  let g:gruvbox_contrast_dark='hard'
+" material
+  let g:material_theme_style = 'darker'
 
 " ale
   let g:ale_enabled = 1
